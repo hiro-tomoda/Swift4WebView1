@@ -12,6 +12,8 @@
 		C2D7367A2078372300CD4B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D736782078372300CD4B9B /* Main.storyboard */; };
 		C2D7367C2078372400CD4B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D7367B2078372400CD4B9B /* Assets.xcassets */; };
 		C2D7367F2078372400CD4B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D7367D2078372400CD4B9B /* LaunchScreen.storyboard */; };
+		C2D7368B20783CA000CD4B9B /* WebView1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7368A20783CA000CD4B9B /* WebView1Controller.swift */; };
+		C2D7368D20783CB900CD4B9B /* WebView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7368C20783CB900CD4B9B /* WebView2Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C2D7367B2078372400CD4B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D7367E2078372400CD4B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2D736802078372400CD4B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D7368A20783CA000CD4B9B /* WebView1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView1Controller.swift; sourceTree = "<group>"; };
+		C2D7368C20783CB900CD4B9B /* WebView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				C2D736742078372300CD4B9B /* AppDelegate.swift */,
 				C2D736762078372300CD4B9B /* ViewController.swift */,
+				C2D7368A20783CA000CD4B9B /* WebView1Controller.swift */,
+				C2D7368C20783CB900CD4B9B /* WebView2Controller.swift */,
 				C2D736782078372300CD4B9B /* Main.storyboard */,
 				C2D7367B2078372400CD4B9B /* Assets.xcassets */,
 				C2D7367D2078372400CD4B9B /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D7368B20783CA000CD4B9B /* WebView1Controller.swift in Sources */,
 				C2D736772078372300CD4B9B /* ViewController.swift in Sources */,
+				C2D7368D20783CB900CD4B9B /* WebView2Controller.swift in Sources */,
 				C2D736752078372300CD4B9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
